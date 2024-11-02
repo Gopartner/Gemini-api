@@ -1,15 +1,12 @@
+// src/App.jsx
 import React from 'react';
-import GeminiAPI from '@o/GeminiAPI';
+import Chat from './ChatApp';
+import './index.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="text-center p-4 bg-gray-800 text-white">
-        <h1 className="text-3xl font-bold">Gemini API Data Fetch Example</h1>
-      </header>
-      <main className="p-4">
-        <GeminiAPI />
-      </main>
+      <Chat />
     </div>
   );
 }
