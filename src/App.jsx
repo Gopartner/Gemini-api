@@ -1,12 +1,12 @@
 // src/App.jsx
 import React from 'react';
-import Chat from './ChatApp';
+import ChatApp from './ChatApp';
 import './index.css';
 
 function App() {
   return (
     <div className="App">
-      <Chat />
+      <ChatApp />
     </div>
   );
 }
