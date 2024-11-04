@@ -1,12 +1,11 @@
 // src/App.jsx
 import React from 'react';
-import ChatApp from './ChatApp';
-import './index.css';
+import Chat from './components/organisms/Chat'; // sesuaikan path jika ada alias
 
 function App() {
   return (
     <div className="App">
-      <ChatApp />
+      <Chat />
     </div>
   );
 }

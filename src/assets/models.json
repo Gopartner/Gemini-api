@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Gemini 1.5",
+    "endpoint": "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent",
+    "apiKey": "API_KEY_GEMINI_1_5"
+  },
+  {
+    "name": "Gemini 2.0",
+    "endpoint": "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-latest:generateContent",
+    "apiKey": "API_KEY_GEMINI_2_0"
+  }
+]
+
