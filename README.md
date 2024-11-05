@@ -20,6 +20,10 @@ Proyek ini adalah API yang digunakan untuk mengelola data dan layanan yang terka
 1. Clone repository ini.
 2. Ikuti langkah-langkah di dokumentasi untuk memulai.
 
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)
+![Stars](https://img.shields.io/github/stars/Gopartner/Gemini-api?style=social)
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+
 ## jalankan cli app:
 ```bash
 npm run ai
