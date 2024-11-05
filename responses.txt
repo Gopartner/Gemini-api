@@ -1,1 +1,176 @@
 
+
+Query: buatkan kode c
+Response: [90m#[90minclude[39m[90m [90m<stdio.h>[39m[90m[39m
+
+[33m[34mint[39m[33m main() [39m{
+[32m// Deklarasi variabel[39m
+[34mint[39m angka;
+
+[32m// Minta input dari pengguna[39m
+[36mprintf[39m([31m"Masukkan sebuah angka: "[39m);
+[36mscanf[39m([31m"%d"[39m, &angka);
+
+[32m// Cetak angka yang dimasukkan[39m
+[36mprintf[39m([31m"Angka yang Anda masukkan adalah: %d\n"[39m, angka);
+
+[34mreturn[39m [32m0[39m;
+}
+
+
+Kode ini akan:
+
+1. [31m[1mMenyertakan header `stdio.h`[22m[39m: Ini menyediakan fungsi untuk input/output
+standar seperti `printf` dan `scanf`.
+2. [31m[1mMendefinisikan fungsi `main`[22m[39m: Fungsi `main` adalah titik awal eksekusi
+program C.
+3. [31m[1mMendeklarasikan variabel `angka`[22m[39m: Variabel ini akan menyimpan angka yang
+dimasukkan pengguna.
+4. [31m[1mMeminta input[22m[39m: Program akan menampilkan pesan "Masukkan sebuah angka: " di
+layar dan menunggu pengguna untuk memasukkan sebuah angka.
+5. [31m[1mMembaca input[22m[39m: Fungsi `scanf` akan membaca angka yang dimasukkan pengguna dan
+menyimpannya ke dalam variabel `angka`.
+6. [31m[1mMencetak output[22m[39m: Program akan mencetak pesan "Angka yang Anda masukkan
+adalah: " diikuti oleh angka yang dimasukkan pengguna.
+7. [31m[1mMengembalikan nilai 0[22m[39m: Nilai 0 menunjukkan bahwa program selesai dengan
+sukses.
+
+Anda dapat mengkompilasi dan menjalankan kode ini dengan menggunakan compiler C.
+Berikut adalah cara menjalankan kode ini di terminal (Linux/MacOS):
+
+1. Simpan kode di file dengan ekstensi `.c` (misalnya `program.c`).
+2. Buka terminal dan navigasikan ke direktori tempat Anda menyimpan file
+tersebut.
+3. Ketik perintah `gcc program.c -o program` untuk mengkompilasi kode menjadi
+file eksekusi bernama `program`.
+4. Jalankan file eksekusi dengan perintah `./program`.
+
+Program akan meminta Anda untuk memasukkan sebuah angka dan kemudian akan
+menampilkan angka tersebut di layar.
+
+--------------------------------------------------
+
+Query: contoh kode lainnya
+Response: ## Contoh Kode Lainnya
+
+Berikut adalah contoh kode untuk beberapa bahasa pemrograman populer:
+
+[31m[1mPython[22m[39m
+
+[33m[34mdef[39m[33m hello_world():[39m
+[31m"""[39m
+[31mFungsi untuk mencetak "Hello, world!".[39m
+[31m"""[39m
+[36mprint[39m([31m"Hello, world!"[39m)
+
+hello_world()
+
+
+[31m[1mJavaScript[22m[39m
+
+```javascript
+function helloWorld() {
+// Fungsi untuk mencetak "Hello, world!" ke konsol.
+console.log("Hello, world!");
+}
+
+helloWorld();
+```
+
+[31m[1mJava[22m[39m
+
+```java
+public class HelloWorld {
+public static void main(String[] args) {
+// Menampilkan "Hello, world!" ke konsol.
+System.out.println("Hello, world!");
+}
+}
+```
+
+[31m[1mC++[22m[39m
+
+```cpp
+#include <iostream>
+
+int main() {
+// Menampilkan "Hello, world!" ke konsol.
+std::cout << "Hello, world!" << std::endl;
+return 0;
+}
+```
+
+[31m[1mC#[22m[39m
+
+```csharp
+using System;
+
+public class HelloWorld {
+public static void Main(string[] args) {
+// Menampilkan "Hello, world!" ke konsol.
+Console.WriteLine("Hello, world!");
+}
+}
+```
+
+[31m[1mPHP[22m[39m
+
+```php
+<?php
+// Menampilkan "Hello, world!" ke layar.
+echo "Hello, world!";
+?>
+```
+
+[31m[1mHTML[22m[39m
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hello, world!</title>
+</head>
+<body>
+<h1>Hello, world!</h1>
+</body>
+</html>
+```
+
+[31m[1mCSS[22m[39m
+
+```css
+/* Styling untuk judul */
+h1 {
+color: blue;
+font-size: 3em;
+text-align: center;
+}
+```
+
+[31m[1mSQL[22m[39m
+
+```sql
+-- Menampilkan semua data dari tabel users
+SELECT * FROM users;
+```
+
+[31m[1mBash[22m[39m
+
+```bash
+# Menampilkan pesan "Hello, world!" ke terminal
+echo "Hello, world!"
+```
+
+[31m[1mContoh kode di atas hanya contoh sederhana. Anda dapat menemukan banyak contoh[22m
+[1mkode lain untuk bahasa pemrograman lain dan tugas yang lebih kompleks di[22m
+[1minternet.[22m[39m
+
+[31m[1mCatatan:[22m[39m
+
+* Pastikan Anda memiliki lingkungan pengembangan yang tepat untuk menjalankan
+kode di atas.
+* Setiap bahasa pemrograman memiliki sintaks dan struktur yang berbeda.
+* Anda perlu mempelajari dasar-dasar setiap bahasa untuk menulis kode yang
+kompleks.
+
+--------------------------------------------------

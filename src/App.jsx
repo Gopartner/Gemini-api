@@ -1,6 +1,5 @@
-// src/App.jsx
 import React from 'react';
-import Chat from './components/organisms/Chat'; // sesuaikan path jika ada alias
+import Chat from '@o/Chat';
 
 function App() {
   return (

@@ -5,10 +5,14 @@ const chatSlice = createSlice({
   name: 'chat',
   initialState: {
     messages: [],
+    userName: '', // Tambahkan state untuk menyimpan nama pengguna
   },
   reducers: {
     addMessage: (state, action) => {
       state.messages.push(action.payload);
+    },
+    setUserName: (state, action) => { // Tambahkan reducer untuk menyimpan nama
+      state.userName = action.payload;
     },
     clearMessages: (state) => {
       state.messages = [];
@@ -16,6 +20,6 @@ const chatSlice = createSlice({
   },
 });
 
-export const { addMessage, clearMessages } = chatSlice.actions;
+export const { addMessage, clearMessages, setUserName } = chatSlice.actions;
 export default chatSlice.reducer;
 
